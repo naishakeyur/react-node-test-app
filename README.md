@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Interview Task: Implementing a Role-Based Access Control (RBAC) system using Node.js and React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objective
 
-## Available Scripts
+The goal of this task is to assess your understanding of Node.js, React, and your ability to implement a simple Role-Based Access Control (RBAC) system using Auth0 or a similar authentication provider. You will create a Node.js backend with a very basic React interface to manage users and their permissions.
 
-In the project directory, you can run:
+## User Types
 
-### `npm start`
+There will be two types of users: admin and regular.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- The admin type will have read and write permissions to all the server resources.
+- The regular type will only have read permissions to all the server resources.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Task Description
 
-### `npm test`
+Create a resource of your choice on the API side and its CRUD operations, and protect it using an RBAC implementation.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the final solution, you should be able to sign in using an admin type account and be able to add, update, and delete the API resource, as well as sign in using a regular type account and only be allowed to see the resource.
 
-### `npm run build`
+## Deliverables
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. A Node.js RESTful API project folder with all source code, dependencies, and documentation.
+2. A React frontend project folder with all source code, dependencies, and documentation.
+3. A written explanation of your implementation choices and any challenges you faced during the development process.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Evaluation Criteria
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Your solution will be evaluated based on the following criteria:
 
-### `npm run eject`
+1. Code quality, organization, and readability.
+2. Adherence to best practices for Node.js and React.
+3. The effectiveness of the implemented RBAC system.
+4. Completeness and clarity of documentation.
+5. The thoroughness of your test cases (bonus points).
+6. The quality of your explanation of the implementation choices and your ability to identify potential challenges and solutions.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Instructions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Create a personal Github / Gitlab / Bitbucket repo, add this README.md file to it.
+2. Complete the task as described in the Objective and Task Description sections and commit your code.
+3. Submit your repo link here: https://blinkin.typeform.com/to/bDKt3BTq
+4. We will review your solution and provide feedback.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Notes
+You have free choice in terms of what to use and how, apart from the mentioned technologies. 
+Docker is also fine; we leave the implementation to you.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Good luck!
